@@ -1,0 +1,81 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+body {
+  color: #333333;
+  background: #f6f9fe;
+  font-family: arial; }
+
+a {
+  color: maroon; }
+
+.container {
+  margin: 0 auto;
+  width: 500px; }
+
+#header {
+  padding: 30px 0;
+  float: left;
+  width: 100%; }
+  #header h1 {
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin: 10px 0; }
+  #header #fbbutton {
+    float: left;
+    height: 40px;
+    width: 100%; }
+
+#login {
+  float: left;
+  width: 100%; }
+  #login h2 {
+    background: #fffccc;
+    border-bottom: 1px solid #cccccc;
+    float: left;
+    width: 480px;
+    font-size: 20px;
+    padding: 10px; }
+  #login p {
+    float: left;
+    padding: 20px 10px;
+    width: 460px;
+    font-size: 18px;
+    line-height: 28px; }
+
+#content {
+  font-family: garamond;
+  float: left;
+  width: 100%;
+  background: white;
+  border: 1px solid #cccccc;
+  margin-bottom: 20px; }
+  #content h1 {
+    float: left;
+    width: 100%;
+    text-align: center;
+    background: #f1f1f1;
+    border-bottom: 5px solid #999999;
+    padding: 30px 0; }
+  #content img {
+    float: left;
+    margin: 20px;
+    border: 1px solid #cccccc; }
+  #content .explanation {
+    float: left;
+    background: #fffccc;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%; }
+  #content #commenters, #content #friends {
+    float: left;
+    width: 100%; }
+  #content .commenter, #content .friend {
+    float: left;
+    width: 100%;
+    border-top: 1px solid #cccccc;
+    padding: 10px 0;
+    text-indent: 10px;
+    font-size: 20px; }
