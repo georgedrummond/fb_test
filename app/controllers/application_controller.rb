@@ -21,6 +21,8 @@ class ApplicationController < ActionController::Base
       redirect_to :controller => :facebook, :action => :login
     end
   end
+  
+  protected
 
   def facebook_auth
     @oauth = Koala::Facebook::OAuth.new(FACEBOOK_APP_ID, FACEBOOK_SECRET_KEY)
