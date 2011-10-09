@@ -70,12 +70,14 @@ a {
     text-align: center;
     width: 100%; }
   #content a.back {
-    background: aliceblue;
+    background: pink;
     float: left;
     width: 100%;
     font-size: 20px;
-    text-align: center;
-    color: maroon; }
+    color: maroon;
+    padding: 10px 0;
+    text-indent: 20px;
+    border-top: 1px solid #cccccc; }
   #content #commenters, #content #friends {
     float: left;
     width: 100%; }
