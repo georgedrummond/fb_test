@@ -1,6 +1,7 @@
 class ApplicationController < ActionController::Base
   protect_from_forgery
   
+  helper_method :logged_in?, :current_user
   before_filter :facebook_auth, :require_login
 
   def logged_in?
