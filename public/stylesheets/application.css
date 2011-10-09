@@ -69,6 +69,13 @@ a {
     padding: 20px 0;
     text-align: center;
     width: 100%; }
+  #content a.back {
+    background: aliceblue;
+    float: left;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    color: maroon; }
   #content #commenters, #content #friends {
     float: left;
     width: 100%; }

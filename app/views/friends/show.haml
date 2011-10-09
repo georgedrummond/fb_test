@@ -2,5 +2,7 @@
 
 .explanation Who comments most on #{@friend.info['name']}'s wall?
 
+=link_to "<< Back", friends_path, :class => :back
+
 #commenters=render :partial =>'friends/commenter', :collection => @top_commenters
     
